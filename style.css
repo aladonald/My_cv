@@ -850,3 +850,50 @@ font-size: 15px;    }
     }
 
 }
+@media screen and (max-width:450px) {
+    .my-pic{
+        max-width: 200px;
+        width: 200px;
+        margin-left: 1.1em;
+    }
+    .img{
+        margin-left: 0px;
+    }
+    .hero{
+        margin-top: 4em;
+    }
+    .about-me{
+        margin-left: .5rem;
+    }
+    .about-me h1{
+        font-size: 2.1rem;
+    }
+    .about-me .design{
+        font-size: 1.5rem;
+    }
+    header{
+        height: 130vh;
+    }
+    .contact-info{
+        margin-left: 0px;
+    }
+    .contact-info h2{
+        font-size: 1.3em;
+        /* font-weight: 600; */
+    }
+    .contact-info p{
+        margin-bottom: 5px;
+        font-weight: 900;
+    }
+    .about-me .social-icons{
+        padding-top: 1em;
+    }
+    .footer-column-2{
+        margin-left: 1px;
+    }
+    .footer-column-2 button{
+        font-size: 13px;
+        margin-left: 8px;
+    }
+
+}
