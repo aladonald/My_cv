@@ -67,7 +67,7 @@ const revealSection = function(entries, observer){
 const sectionObserver = new IntersectionObserver(
     revealSection, {
         root:null,
-        threshold:.30,
+        threshold:.15,
 
     }
 )
