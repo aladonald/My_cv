@@ -803,7 +803,7 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
         letter-spacing: .5px;
 font-size: 15px;    }
 }
-@media screen and (max-width:380px) {
+@media screen and (max-width:350px) {
     .my-pic{
         max-width: 200px;
         width: 200px;
