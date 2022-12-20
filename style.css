@@ -453,7 +453,7 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
 .personal-info{
 
     width: 100%;
-    min-height: 70vh;
+    min-height: 60vh;
     background: linear-gradient(to top, rgb(238, 123, 82) 10%, #f3f3f3 100%);
     padding-bottom: 3rem;
 }
@@ -803,7 +803,7 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
         letter-spacing: .5px;
 font-size: 15px;    }
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width:400px) {
     .my-pic{
         max-width: 200px;
         width: 200px;
@@ -816,10 +816,10 @@ font-size: 15px;    }
         margin-top: 4em;
     }
     .about-me{
-        margin-left: 1em;
+        margin-left: .5rem;
     }
     .about-me h1{
-        font-size: 2.3em;
+        font-size: 2.1rem;
     }
     .about-me .design{
         font-size: 1.5rem;
