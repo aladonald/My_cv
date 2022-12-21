@@ -224,6 +224,11 @@ header{
     word-spacing: 25px;
     margin-left: 7px;
 }
+.social-icons a:hover{
+    color: white;
+    font-size: 28px;
+    
+}
 .objectives{
     margin-left: 1rem;
     margin-top: 1.5em;
@@ -598,8 +603,8 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
     transform: translateY(100px);
 }
 
-.footer-column-2 .download:hover{
-    color: #FF9063FF
+.footer-column-2 .download{
+    background-color: #FF9063FF
 }
 @media screen and (max-width:1200px) {
     .hero{
