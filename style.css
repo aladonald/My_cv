@@ -767,6 +767,9 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
 
 }
 @media screen and (max-width:500px){
+     .nav ul{
+        margin-left: -2rem;
+    }
     .class-1{
         display: grid;
         grid-template-columns: auto;
