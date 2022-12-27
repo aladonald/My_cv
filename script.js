@@ -76,3 +76,25 @@ allSection.forEach(function(section){
     sectionObserver.observe(section);
     section.classList.add("sectionhidden")
 })
+
+/////////////////////////////////////FORM///////////////////////////////////////
+
+const form = document.querySelector(".contact-form");
+const contactBtn = document.querySelectorAll(".contact-me");
+const overlay = document.querySelector(".overlay")
+
+for(let i = 0; i <= contactBtn.length; i++){
+    contactBtn[i].addEventListener("click", function(){
+        form.classList.toggle("hidden");
+        overlay.classList.toggle("hidden")
+    })
+    overlay.addEventListener("click", function(){
+        if (!overlay.classList.contains("hidden")){
+            overlay.classList.add("hidden");
+            form.classList.add("hidden")
+        }
+    })
+}
+
+
+
