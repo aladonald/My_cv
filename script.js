@@ -94,6 +94,7 @@ for(let i = 0; i <= contactBtn.length; i++){
             form.classList.add("hidden")
         }
     })
+        
 }
 
 
