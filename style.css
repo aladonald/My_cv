@@ -500,6 +500,16 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
     letter-spacing: 3px;
     transition: 1s all;
 }
+.footer-column-2 .download{
+    font-size: 15px;
+    margin-left: 20px;
+    padding: 15px 30px;
+    border-radius: 35px;
+    background-color: #FF9063FF;
+    color: white;
+    letter-spacing: 3px;
+    transition: 1s all;
+}
 .fotter-social-icons a{
     font-size: 1.2rem;
     color: #FF9063FF;
