@@ -568,10 +568,12 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
 }
 .contact-form .flex{
     display: flex;
-
 }
 .contact-form .flex input:nth-child(4){
     margin-left: .5rem;
+}
+.contact-form label{
+    visibility: hidden;
 }
 .contact-form label{
     padding: .5rem 0px;
