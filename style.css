@@ -603,6 +603,7 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
 }
 .hidden{
     display: none;
+    visibility: hidden;
 }
 .overlay{
     position: absolute;
@@ -894,7 +895,6 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
         display: block;
         padding: 1.7rem;
         border: 10px solid rgba(128, 128, 128, 0.148);
-        display:none;
 }
     .contact-form .submit{
         padding: 10px 20px;
