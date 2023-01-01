@@ -890,10 +890,11 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
     }
     
     .contact-form{
-        width: 300px;
+        width: 400px;
         display: block;
         padding: 1.7rem;
         border: 10px solid rgba(128, 128, 128, 0.148);
+        display:none;
 }
     .contact-form .submit{
         padding: 10px 20px;
