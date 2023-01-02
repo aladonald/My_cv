@@ -489,6 +489,9 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
     font-size: 18px;
     margin-top: 1rem;
 }
+.contact-me a{
+    color:white;
+}
 .footer-column-2 button{
     font-size: 15px;
     margin-left: 20px;
