@@ -491,6 +491,10 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
 }
 .contact-me a{
     color:white;
+    text-decoration: none;
+}
+.contact-me a:hover{
+    color:white;
 }
 .footer-column-2 button{
     font-size: 15px;
