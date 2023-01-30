@@ -685,7 +685,8 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
 } 
 .sectionhidden{
     opacity: 0;
-    transform: translateY(100px);
+    transform: translateY(8rem);
+    transition: 1s all;
 }
 
 .footer-column-2 .download{
