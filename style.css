@@ -685,10 +685,12 @@ box-shadow: 10px 10px 35px -10px #FF9063FF;
 } 
 .sectionhidden{
     opacity: 0;
-    transform: translateY(100px);
-    transition: 1s all;
+    transform: translateY(-10rem);
+    transition: 2s all;
 }
-
+.section{
+    transition: 2s all;
+}
 .footer-column-2 .download{
     background-color: #FF9063FF
 }
