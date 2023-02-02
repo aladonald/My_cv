@@ -25,7 +25,9 @@ body{
     top: 30px;
     background: transparent;
 }
-
+.contact-form input, textarea {
+    padding-left: 10px;
+}
 .nav h1{
     /* font-family: 'Kolker Brush';*/
     font-family: 'Poor Story', cursive; 
